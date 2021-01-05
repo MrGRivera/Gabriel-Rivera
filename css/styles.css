@@ -4352,6 +4352,7 @@ input[type=button].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin: 0.5rem 0rem;
 }
 .card > hr {
   margin-right: 0;
@@ -10119,6 +10120,14 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+
+#projects .project-cards {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 
 @media (min-width: 768px) {
   section.resume-section {
